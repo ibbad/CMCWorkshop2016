@@ -1,5 +1,5 @@
-# GI 2016 Website
+# CMC Workshop 2016 Website
 
-web pages for [INFOCOM GI 2016](http://gi2016.cs.helsinki.fi/)
+web pages for [CMC Workshop 2016]()
 
-© IEEE GI 2016
+© CMC Workshop 2016
