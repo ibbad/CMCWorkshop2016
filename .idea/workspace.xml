@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65fa4405-5ece-4412-b693-0ed6a0a818e6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/css/bootstrap2.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/speakers_v2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/css/style2.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/speakers.html" afterPath="$PROJECT_DIR$/speakers.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/css/style.css" afterPath="$PROJECT_DIR$/lib/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/css/bootstrap2.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/css/style2.css" afterPath="" />
     </list>
     <ignored path="cmc2016-master.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -41,20 +37,20 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="speakers_v2.html" pinned="false" current-in-tab="false">
+          <file leaf-file-name="speakers_v2.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/speakers_v2.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-63.0">
+                <state vertical-scroll-proportion="2.8066826">
                   <caret line="199" column="23" selection-start-line="198" selection-start-column="12" selection-end-line="201" selection-end-column="18" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+          <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.32115087">
+                <state vertical-scroll-proportion="-15.296296">
                   <caret line="62" column="6" selection-start-line="62" selection-start-column="3" selection-end-line="62" selection-end-column="6" />
                   <folding />
                 </state>
@@ -640,33 +636,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/speakers_v2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-63.0">
-          <caret line="199" column="23" selection-start-line="198" selection-start-column="12" selection-end-line="201" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/css/style2.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.774194">
-          <caret line="92" column="17" selection-start-line="92" selection-start-column="13" selection-end-line="92" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/css/bootstrap2.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.774194">
-          <caret line="22" column="6" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.32115087">
+        <state vertical-scroll-proportion="-15.296296">
           <caret line="62" column="6" selection-start-line="62" selection-start-column="3" selection-end-line="62" selection-end-column="6" />
           <folding />
         </state>
@@ -682,37 +654,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/speakers.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.503888">
-          <caret line="237" column="27" selection-start-line="237" selection-start-column="27" selection-end-line="237" selection-end-column="27" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#div#0;n#div#2;n#section#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#address#0;n#h5#0;n#h4#0;n#span#0;n#div#0;n#div#2;n#section#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#1;n#div#2;n#section#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#2;n#div#2;n#section#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#address#0;n#h5#0;n#h4#0;n#span#0;n#div#2;n#div#2;n#section#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#0;n#div#4;n#section#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#address#0;n#h5#0;n#h4#0;n#span#0;n#div#0;n#div#4;n#section#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#1;n#div#4;n#section#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#address#0;n#h5#0;n#h4#0;n#span#0;n#div#1;n#div#4;n#section#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#2;n#div#4;n#section#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#address#0;n#h5#0;n#h4#0;n#span#0;n#div#2;n#div#4;n#section#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#6;n#section#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#0;n#div#6;n#section#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#address#0;n#h5#0;n#h4#0;n#span#0;n#div#0;n#div#6;n#section#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#6;n#section#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#1;n#div#6;n#section#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#6;n#section#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#2;n#div#6;n#section#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#address#0;n#h5#0;n#h4#0;n#span#0;n#div#2;n#div#6;n#section#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#8;n#section#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#0;n#div#8;n#section#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#address#0;n#h5#0;n#h4#0;n#span#0;n#div#0;n#div#8;n#section#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#8;n#section#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#1;n#div#8;n#section#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#8;n#section#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#address#0;n#h5#0;n#h4#0;n#span#0;n#div#2;n#div#8;n#section#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#0;n#div#10;n#section#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="5.3333335">
+          <caret line="436" column="16" selection-start-line="436" selection-start-column="16" selection-end-line="436" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/speakers_v2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.8066826">
+          <caret line="199" column="23" selection-start-line="198" selection-start-column="12" selection-end-line="201" selection-end-column="18" />
+          <folding />
         </state>
       </provider>
     </entry>
