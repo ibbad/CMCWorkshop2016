@@ -187,9 +187,6 @@ footer a, footer a:hover {
 	padding-bottom: 40px;
 }
 
-.row1{
-    columns: 3;
-}
 .clear {clear: both;}
 
 /* Mobile Devices Optimization */
@@ -200,19 +197,19 @@ footer a, footer a:hover {
 		max-width: 50%;
 	}
 
-	#speakers img {max-width: 300px;}
+	.speakers img {max-width: 300px;}
 
 }
 
 /* 03. SPEAKERS SETTINGS ============================================ */
 
-#speakers {
+.speakers {
 	padding: 60px 0;
 	/*background: #4593e3;*/
 	text-align: center;
 }
 
-#speakers p {
+.speakers p {
 	padding: 20px 0 60px;
 	color: rgba(255,255,255, 0.85);
 	font-family: 'Open Sans', sans-serif;
@@ -220,20 +217,20 @@ footer a, footer a:hover {
 	letter-spacing: 0.2px;
 }
 
-#speakers h3 {
+.speakers h3 {
 	padding: 0 0 15px;
 	font-family: 'norwester';
 	font-size: 36px;
 	text-transform: uppercase;
 }
 
-#speakers h4  {
+.speakers h4  {
 	margin-top: -20px;
 	font-size: 32px;
 	font-weight: 700;
 }
 
-#speakers h4 span {
+.speakers h4 span {
 	display: block;
 	position: relative;
 	left: -40px;
@@ -243,7 +240,7 @@ footer a, footer a:hover {
 	padding: 0;
 }
 
-#speakers img {
+.speakers-img {
 	width: 100%;
 	max-width: 240px;
 	border-radius: 50%;
@@ -259,7 +256,7 @@ footer a, footer a:hover {
 	/*transition: all 0.1s ease-in;*/
 /*}*/
 
-#speakers span {
+.speakers span {
 	padding: 8px 20px;
 	position: relative;
 	top: -64px;
