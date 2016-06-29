@@ -44,6 +44,10 @@ hr {
     -webkit-margin-after: 0.5em;
     -webkit-margin-start: auto;
     -webkit-margin-end: auto;
+    -moz-margin-before: 0.5em;
+    -moz-margin-after: 0.5em;
+    -moz-margin-start: auto;
+    -moz-margin-end: auto;
     border:0;
     height:0px;
     border-width:10px;
