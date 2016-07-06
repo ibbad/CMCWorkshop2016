@@ -81,6 +81,14 @@ header {
   text-align: right;
 }
 
+header > h4 {display: inline-block;}
+
+header span {margin-left: 100px;}
+
+table div {
+  display: none;
+}
+
 .logo_colour { 
   color: #FFBB00;
 }
