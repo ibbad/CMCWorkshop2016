@@ -160,9 +160,8 @@ table div {
 
 #content ul li { 
   list-style-type: none;
-  background: url(../resources/bullet.png) no-repeat;
-  margin: 0 0 0  -35px; 
-  padding: 0 0 4px 25px;
+  /*background: url(../resources/bullet.png) no-repeat;*/
+  padding: 0 0 0px 0px;
   line-height: 1.5em;
 }
 
@@ -183,6 +182,21 @@ table div {
   color: #488AC7;
 }
 
+#day1 {
+  display: block;
+
+}
+
+#day2 {
+  display: none;
+
+}
+
+#day3 {
+  display: none;
+
+}
+ 
 
 /* =============================================================
    FOOTER SECTION STYLES
