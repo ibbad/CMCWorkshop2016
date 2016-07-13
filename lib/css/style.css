@@ -81,13 +81,24 @@ header {
   text-align: right;
 }
 
-header > h4 {display: inline-block;}
+header > h4 {
+  display: inline-block;
+  font-weight: bold;
+  }
 
-header span {margin-left: 100px;}
+header span {
+  text-align: right;
+  margin-right: 2%;
+}
 
 table div {
   display: none;
 }
+
+.singletitle {
+  vertical-align: middle;
+}
+
 
 .logo_colour { 
   color: #FFBB00;
