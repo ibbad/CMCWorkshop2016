@@ -116,7 +116,10 @@
                                 <h4>HIIT and Research on “Augmented
                                     Research”</h4>
                                 <br>
-                                <span><i>Petri Myllymäki</i></span></header>
+                                <span>
+                                    <i>Petri Myllymäki,
+                                    HIIT/ University of Helsinki
+                                </i></span></header>
                             <div><i>HIIT’s Focus Area - Augmented Research</i>
                             </div>
                         </td>
@@ -992,7 +995,6 @@
             </div>
 
 
-
             <div class="table" id="day3">
                 <table style="width:100%" class="table-striped table-bordered">
                     <h2> Friday 29th July</h2>
@@ -1241,7 +1243,6 @@
                         <td>
                             <header><h4>Open
                                 Discussion</h4><br>
-                                <span><i></i></span>
                             </header>
                             <div><i>Open discussion session to discuss
                                 research ideas and collaborations.</i></div>
@@ -1310,8 +1311,12 @@
         if ($(this).next().css("display") == "block") {
             $("header").next().hide()
         } else {
+            // reset all fields in other tabs
             $("header").next().hide()
+            $("header").find('span').css("font-weight", "normal")
+            // apply styling
             $(this).next().show()
+            $(this).find('span').css("font-weight", "bold")
         }
 
     })
