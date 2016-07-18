@@ -24,6 +24,10 @@ h3 {
   color: #009FBC;
 }
 
+h3 a {
+    color: #009FBC;
+}
+
 h5 { 
   color: #009FBC;
   padding: 0 0 0 0;
