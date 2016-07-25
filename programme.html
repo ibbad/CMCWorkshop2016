@@ -384,7 +384,7 @@
                             <header><h4>Off-the-Shelf Wi-Fi and SDN: How to
                                 Create Virtual Wires in the Wi-Fi Networks</h4>
                                 <br>
-                                <span><i>Seppo Hatonen, University of
+                                <span><i>Seppo Hätönen, University of
                                 Helsinki</i></span></header>
                             <div><i>The Software-Defined Networking mainly
                                 revolves around the concepts of wires and ports.
@@ -1464,6 +1464,7 @@
     $("header").click(function () {
         if ($(this).next().css("display") == "block") {
             $("header").next().hide()
+	    $("header").find('span').css("font-weight", "normal")
         } else {
             // reset all fields in other tabs
             $("header").next().hide()
@@ -1477,6 +1478,7 @@
 
     $("table").find("div").click(function () {
         $(this).hide();
+	$(this).prev().find('span').css("font-weight", "normal");
     })
 
     $('li').click(function () {
