@@ -76,8 +76,8 @@
                 <h3>Programme</h3>
             </div>
             <ul class="nav nav-tabs">
-                <li class="active" id="tab1"><a><h4>Day 1</h4></a></li>
-                <li id="tab2"><a><h4>Day 2</h4></a></li>
+                <li id="tab1"><a><h4>Day 1</h4></a></li>
+                <li class="active" id="tab2"><a><h4>Day 2</h4></a></li>
                 <li id="tab3"><a><h4>Day 3</h4></a></li>
             </ul>
 
@@ -350,7 +350,10 @@
                         <td>13:25-13:50</td>
                         <td>
                             <header>
-                                <h4>Applications at the Edge</h4>
+                                <h4>
+                                    Applications at the Edge
+                                    (<a href="lib/slides/hannu-flinck.pdf">slides</a>)
+                                </h4>
                                 <br>
                                 <span><i>Hannu Flick, Nokia Bell Labs</i></span>
                             </header>
@@ -428,9 +431,12 @@
                         <td style="width: 15%;">14:45-15:10</td>
                         <td>
                             <header>
-                                <h4>Open Connect Everywhere: A Glimpse at the
+                                <h4>
+                                    Open Connect Everywhere: A Glimpse at the
                                     Internet Ecosystem through the Lens of the
-                                    Netflix CDN</h4>
+                                    Netflix CDN
+                                    (<a href="lib/slides/steve-uhlig.pdf">slides</a>)
+                                </h4>
                                 <br>
                                 <span><i>Steve Uhlig, Queen Mary
                                     University of London</i></span>
@@ -503,8 +509,11 @@
                         <td>15:35-16:00</td>
                         <td>
                             <header>
-                                <h4>StackMap: Low-Latency Networking with the
-                                    OS Stack and Dedicated NICs</h4>
+                                <h4>
+                                    StackMap: Low-Latency Networking with the
+                                    OS Stack and Dedicated NICs
+                                    (<a href="lib/slides/lars-eggert.pdf">slides</a>)
+                                </h4>
                                 <br>
                                 <span><i>Lars Eggert , NetAPP</i></span>
                             </header>
@@ -580,6 +589,7 @@
                                 <h4>
                                     Off the Hook: Real-Time Client-Side Phishing
                                     Prevention System
+                                    (<a href="lib/slides/samuel-marchel.pptx">slides</a>)
                                 </h4>
                                 <br>
                                 <span><i>Samuel Marchel, Aalto University
@@ -607,14 +617,18 @@
                                 of the phish and offers to redirect the user
                                 there. The underlying technique for phishing
                                 detection and target identification relies on
-                                two core observations: (a) although phishers
-                                try to make a phishing webpage look similar to
-                                its target, they do not have unlimited freedom
-                                in structuring the phishing webpage; and (b) a
-                                webpage can be characterized by a small set of
-                                key terms; how these key terms are used in
-                                different parts of a webpage is different in
-                                the case of legitimate and phishing webpages.
+                                two core observations:
+                                <ol type="a">
+                                    <li>Although phishers try to make a phishing
+                                        webpage look similar to its target, they
+                                        do not have unlimited freedom in
+                                        structuring the phishing webpage</li>
+                                    <li>A webpage can be characterized by a
+                                        small set of key terms; how these key
+                                        terms are used in different parts of a
+                                        webpage is different in the case of
+                                        legitimate and phishing webpages.</li>
+                                </ol>
                                 Based on these observations, we developed a
                                 machine learning based phishing detection
                                 system with several notable properties: it
@@ -1240,7 +1254,10 @@
                         <td style="width: 15%;">10:45-11:10</td>
                         <td>
                             <header>
-                                <h4>Carat: Before and After</h4>
+                                <h4>
+                                    Carat: Before and After
+                                    (<a href="lib/slides/eemil-carat.pdf">slides</a>)
+                                </h4>
                                 <br>
                                 <span><i>Eemil Lagerspetz, University of
                                     Helsinki</i></span>
@@ -1497,6 +1514,13 @@
         }
         $(".active").removeClass('active')
         $(this).addClass('active')
+    })
+
+    // Setup the default day of workshop
+    $('document').ready(function(){
+        $("#day1").hide()
+        $("#day2").show()
+        $("#day3").hide()
     })
 
 </script>
